@@ -8,11 +8,23 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
           integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
-    <title>Home / Dashboard </title>
+    <title>Home</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/card.css">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <style>
+        #footer {
+            /*position: fixed;*/
+            padding: 0 0 0 0;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 80px;
+            background: grey;
+            color: azure;
+        }
+    </style>
 </head>
 
 
@@ -25,7 +37,9 @@
             <div class="col-12">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">User Management</a>
+                        <a class="navbar-brand" href="#">
+                            <i class="fab fa-centos"></i> Student Management
+                        </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent"
                                 aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -35,19 +49,24 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                             <ul class="navbar-nav text-uppercase">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="home.html">
+                                        <i class="fas fa-home"></i>  Home
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#">
+                                        <i class="fas fa-info-circle"></i> About
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="login.html">Login</a>
+                                    <a class="nav-link" href="login.html">
+                                        <i class="fas fa-sign-in-alt"></i> Login
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="register.html">Register</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="welcome.html">Logout</a>
+                                    <a class="nav-link" href="register.html">
+                                        <i class="fas fa-user-plus"></i> Register
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -81,7 +100,7 @@
                 <div class="d-flex justify-content-between">
                     <div class="d-flex flex-row align-items-center">
                         <!-- <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>-->
-                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></i></div>
+                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">Md Imtiaz Hossain</h6> <span>1 days ago</span>
                         </div>
@@ -106,7 +125,7 @@
             <div class="card p-3 mb-4">
                 <div class="d-flex justify-content-between">
                     <div class="d-flex flex-row align-items-center">
-                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></i></div>
+                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">Md Hasanul Bari</h6> <span>4 days ago</span>
                         </div>
@@ -131,7 +150,7 @@
             <div class="card p-3 mb-4">
                 <div class="d-flex justify-content-between">
                     <div class="d-flex flex-row align-items-center">
-                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></i></div>
+                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">Asif Amjad</h6> <span>2 days ago</span>
                         </div>
@@ -156,7 +175,7 @@
             <div class="card p-3 mb-4">
                 <div class="d-flex justify-content-between">
                     <div class="d-flex flex-row align-items-center">
-                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></i></div>
+                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">Md Imtiaz Hossain</h6> <span>1 days ago</span>
                         </div>
@@ -181,7 +200,7 @@
             <div class="card p-3 mb-4">
                 <div class="d-flex justify-content-between">
                     <div class="d-flex flex-row align-items-center">
-                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></i></div>
+                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">Md Hasanul Bari</h6> <span>4 days ago</span>
                         </div>
@@ -206,7 +225,7 @@
             <div class="card p-3 mb-4">
                 <div class="d-flex justify-content-between">
                     <div class="d-flex flex-row align-items-center">
-                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></i></div>
+                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">Asif Amjad</h6> <span>2 days ago</span>
                         </div>
@@ -231,7 +250,7 @@
             <div class="card p-3 mb-4">
                 <div class="d-flex justify-content-between">
                     <div class="d-flex flex-row align-items-center">
-                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></i></div>
+                        <div><img style="width: 75px; height: 75px" src="img/login.png" alt="image"/></div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">Md Imtiaz Hossain</h6> <span>1 days ago</span>
                         </div>
@@ -255,6 +274,66 @@
     </div>
 </div>
 
+<!--footer-->
+<div id="footer">
+
+    <div class="bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bg-dark">
+
+                    <div class="text-center p-3">
+
+                        <!-- Facebook -->
+                        <a class="btn btn-outline-light btn-floating m-1"
+                           href="https://github.com/Md-Imtiaz-Hossain" role="button">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-light btn-floating m-1"
+                           href="https://stackoverflow.com/users/12133833/md-imtiaz-hossain" role="button">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <!-- Google -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-light btn-floating m-1"
+                           href="https://www.codewars.com/users/Md%20Imtiaz%20Hossain" role="button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <!-- Linkedin -->
+                        <a class="btn btn-outline-light btn-floating m-1"
+                           href="https://github.com/Md-Imtiaz-Hossain" role="button">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <!-- Github -->
+                        <a class="btn btn-outline-light btn-floating m-1"
+                           href="https://github.com/Md-Imtiaz-Hossain" role="button">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="text-center p-3">
+                        © 2020 Copyright:
+                        <a class="text-white"
+                           href="https://sites.google.com/view/mdimtiazhossaintechy5/home">Imtiaz.com</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
 
 </body>
 </html>
